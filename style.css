@@ -12,6 +12,7 @@ body{
     font-family: sans-serif;
     position: relative;
     background-color: aliceblue;
+    
 }
 
 form{
@@ -77,5 +78,17 @@ a:active{
   
     text-align: center;
     padding: 5px 20px;
+}
+
+@media (max-width: 500px) {
+    form{
+        padding: 40px 15px !important;
+        margin: 10px;
+    }
+    body{
+        padding: 50px;
+    }
+    
+    
 }
 
